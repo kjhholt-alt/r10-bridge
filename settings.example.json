@@ -1,0 +1,35 @@
+{
+  "_comment": "Copy to settings.json and edit. settings.json is gitignored.",
+
+  "mode": "ble",
+
+  "ble": {
+    "device_name_match": "Approach R10",
+    "auto_reconnect": true,
+    "scan_timeout_sec": 30
+  },
+
+  "e6": {
+    "host": "0.0.0.0",
+    "port": 6868
+  },
+
+  "bridge": {
+    "http_host": "localhost",
+    "http_port": 8787,
+    "broadcast_raw_bytes": false
+  },
+
+  "persist": {
+    "sqlite_path": "data/shots.db",
+    "capture_dir": "captures",
+    "keep_captures_days": 30
+  },
+
+  "shot_defaults": {
+    "altitude_ft": 1450,
+    "temperature_f": 70,
+    "humidity_pct": 50,
+    "tee_distance_yd": 0
+  }
+}

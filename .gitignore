@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# r10-bridge runtime
+captures/*.jsonl
+captures/*.bin
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+logs/
+settings.json
+inbox/
